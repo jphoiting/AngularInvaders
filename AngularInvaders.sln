@@ -1,25 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularInvaders", "http://localhost:55216", "{67E371FE-B37E-435E-A2E7-D629DC88CF6F}"
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularInvaders", ".", "{B3E8CE79-893A-4D44-966B-CFCD7221DC7A}"
 	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_55216"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Projects\AngularInvaders\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55216\"
+		Debug.AspNetCompiler.VirtualPath = "/AngularInvaders"
+		Debug.AspNetCompiler.PhysicalPath = "..\AngularInvaders\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AngularInvaders\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_55216"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Projects\AngularInvaders\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55216\"
+		Release.AspNetCompiler.VirtualPath = "/AngularInvaders"
+		Release.AspNetCompiler.PhysicalPath = "..\AngularInvaders\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AngularInvaders\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\..\Projects\AngularInvaders\"
+		VWDPort = "9209"
 	EndProjectSection
 EndProject
 Global
@@ -27,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67E371FE-B37E-435E-A2E7-D629DC88CF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67E371FE-B37E-435E-A2E7-D629DC88CF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E8CE79-893A-4D44-966B-CFCD7221DC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E8CE79-893A-4D44-966B-CFCD7221DC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
